@@ -1,125 +1,153 @@
 ﻿namespace NetworkPorts
 {
     /// <summary>
-    /// Enumeration for common network ports
+    /// Class for commonly-used network port constants
     /// </summary>
-    public enum NetworkPort : int
+    public class NetworkPort
     {
         /// <summary>
         /// File Transfer Protocol (FTP) data transfer
         /// </summary>
-        FtpData = 20,
+        public const ushort FtpData = 20;
+
         /// <summary>
         /// File Transfer Protocol (FTP) control (command)
         /// </summary>
-        FtpControl = 21,
+        public const ushort FtpControl = 21;
+
         /// <summary>
         /// Secure Shell (SSH)
         /// </summary>
-        Ssh = 22,
+        public const ushort Ssh = 22;
+
         /// <summary>
         /// Telnet protocol
         /// </summary>
-        Telnet = 23,
+        public const ushort Telnet = 23;
+
         /// <summary>
         /// Simple Mail Transfer Protocol (SMTP)
         /// </summary>
-        Smtp = 25,
+        public const ushort Smtp = 25;
+
         /// <summary>
         /// Domain Name System (DNS)
         /// </summary>
-        Dns = 53,
+        public const ushort Dns = 53;
+
         /// <summary>
         /// Dynamic Host Configuration Protocol (DHCP) client
         /// </summary>
-        DhcpClient = 67,
+        public const ushort DhcpClient = 67;
+
         /// <summary>
         /// Bootstrap Protocol (BOOTP) server
         /// </summary>
-        BootpServer = 67,
+        public const ushort BootpServer = 67;
+
         /// <summary>
         /// Dynamic Host Configuration Protocol (DHCP) server
         /// </summary>
-        DhcpServer = 68,
+        public const ushort DhcpServer = 68;
+
         /// <summary>
         /// Bootstrap Protocol (BOOTP) client
         /// </summary>
-        BootpClient = 68,
+        public const ushort BootpClient = 68;
+
         /// <summary>
         /// Trivial File Transfer Protocol (TFTP)
         /// </summary>
-        Tftp = 69,
+        public const ushort Tftp = 69;
+
         /// <summary>
         /// Hypertext Transfer Protocol (HTTP)
         /// </summary>
-        Http = 80,
+        public const ushort Http = 80;
+
         /// <summary>
         /// Post Office Protocol, version 2 (POP2)
         /// </summary>
-        Pop2 = 109,
+        public const ushort Pop2 = 109;
+
         /// <summary>
         /// Post Office Protocol, version 3 (POP3)
         /// </summary>
-        Pop3 = 110,
+        public const ushort Pop3 = 110;
+
         /// <summary>
         /// Network News Transfer Protocol (NNTP)
         /// </summary>
-        Nntp = 119,
+        public const ushort Nntp = 119;
+
         /// <summary>
         /// Network Time Protocol (NTP)
         /// </summary>
-        Ntp = 123,
+        public const ushort Ntp = 123;
+
         /// <summary>
         /// NetBIOS Name Service
         /// </summary>
-        NetBiosNameService = 137,
+        public const ushort NetBiosNameService = 137;
+
         /// <summary>
         /// NetBIOS Datagram Service
         /// </summary>
-        NetBiosDatagramService = 138,
+        public const ushort NetBiosDatagramService = 138;
+
         /// <summary>
         /// NetBIOS Session Service
         /// </summary>
-        NetBiosSessionService = 139,
+        public const ushort NetBiosSessionService = 139;
+
         /// <summary>
         /// Internet Message Access Protocol (IMAP)
         /// </summary>
-        Imap = 143,
+        public const ushort Imap = 143;
+
         /// <summary>
         /// Simple Network Management Protocol (SNMP)
         /// </summary>
-        Snmp = 161,
+        public const ushort Snmp = 161;
+
         /// <summary>
         /// Simple Network Management Protocol Trap (SNMPTRAP)
         /// </summary>
-        SnmpTrap = 162,
+        public const ushort SnmpTrap = 162;
+
         /// <summary>
         /// Internet Relay Chat (IRC)
         /// </summary>
-        Irc = 194,
+        public const ushort Irc = 194;
+
         /// <summary>
         /// SNMP Unix Multiplexer (SMUX)
         /// </summary>
-        Smux = 199,
+        public const ushort Smux = 199;
+
         /// <summary>
         /// Lightweight Directory Access Protocol (LDAP)
         /// </summary>
-        Ldap = 389,
+        public const ushort Ldap = 389;
+
         /// <summary>
         /// Hypertext Transfer Protocol Secure (HTTPS)
         /// </summary>
-        Https = 443,
+        public const ushort Https = 443;
+
         /// <summary>
         /// FTP over TLS/SSL Protocol (FTPS) data transfer
         /// </summary>
-        FtpsData = 989,
+        public const ushort FtpsData = 989;
+
         /// <summary>
         /// FTP over TLS/SSL Protocol (FTPS) control (command)
         /// </summary>
-        FtpsControl = 990,
+        public const ushort FtpsControl = 990;
+
         /// <summary>
         /// Microsoft Terminal Server (RDP)
         /// </summary>
-        Rdp = 3389
+        public const ushort Rdp = 3389;
     }
 }

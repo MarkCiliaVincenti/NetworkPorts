@@ -7,12 +7,11 @@ builder.WebHost.UseKestrel(k =>
     var services = k.ApplicationServices;
 
     k.ListenAnyIp(
-        **`NetworkPort.Http`**,
+        NetworkPort.Http,
         listenOptions =>
         {
             listenOptions.Protocols = HttpProtocols.Http1;
         });
     });
 }
-`sample`**`sample`**`sample`
 ```

@@ -3,7 +3,7 @@
     /// <summary>
     /// Class for commonly-used network port constants
     /// </summary>
-    public class NetworkPort
+    public static class NetworkPort
     {
         /// <summary>
         /// File Transfer Protocol (FTP) data transfer

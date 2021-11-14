@@ -3,7 +3,7 @@
     /// <summary>
     /// Enumeration for common network ports
     /// </summary>
-    public enum NetworkPort
+    public enum NetworkPort : int
     {
         /// <summary>
         /// File Transfer Protocol (FTP) data transfer

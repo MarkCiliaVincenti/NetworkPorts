@@ -146,8 +146,18 @@
         public const ushort FtpsControl = 990;
 
         /// <summary>
+        /// MQ Telemetry Transport (MQTT) unencrypted
+        /// </summary>
+        public const ushort MqttUnencrypted = 1883;
+
+        /// <summary>
         /// Microsoft Terminal Server (RDP)
         /// </summary>
         public const ushort Rdp = 3389;
+
+        /// <summary>
+        /// MQ Telemetry Transport (MQTT) encrypted
+        /// </summary>
+        public const ushort MqttEncrypted = 8883;
     }
 }

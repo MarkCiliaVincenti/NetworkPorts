@@ -11,7 +11,7 @@
 		<PackageReleaseNotes>Added more ports.</PackageReleaseNotes>
 		<Description>Constants for common network ports.</Description>
 		<Copyright>© 2021 Mark Cilia Vincenti</Copyright>
-		<PackageTags>ports,network,common,web,http,https,ftp</PackageTags>
+		<PackageTags>ports,network,common,web,http,https,ftp,ssh</PackageTags>
 		<RepositoryType>git</RepositoryType>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<AssemblyVersion>1.0.5.0</AssemblyVersion>
@@ -21,6 +21,8 @@
 		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
 		<EnableNETAnalyzers>True</EnableNETAnalyzers>
 		<AnalysisLevel>latest</AnalysisLevel>
+		<NeutralLanguage>en</NeutralLanguage>
+		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

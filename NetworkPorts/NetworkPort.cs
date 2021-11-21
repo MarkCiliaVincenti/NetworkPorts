@@ -6,6 +6,46 @@
     public static class NetworkPort
     {
         /// <summary>
+        /// TCP Port Service Multiplexer (TCPMUX)
+        /// </summary>
+        public const ushort Tcpmux = 1;
+
+        /// <summary>
+        /// Echo Protocol
+        /// </summary>
+        public const ushort EchoProtocol = 7;
+
+        /// <summary>
+        /// Discard Protocol
+        /// </summary>
+        public const ushort DiscardProtocol = 9;
+
+        /// <summary>
+        /// Active Users (systat service)
+        /// </summary>
+        public const ushort Systat = 11;
+
+        /// <summary>
+        /// Daytime Protocol
+        /// </summary>
+        public const ushort DaytimeProtocol = 13;
+
+        /// <summary>
+        /// Quote of the Day (QOTD)
+        /// </summary>
+        public const ushort Qotd = 17;
+
+        /// <summary>
+        /// Message Send Protocol (MSP)
+        /// </summary>
+        public const ushort Msp = 18;
+
+        /// <summary>
+        /// Character Generation Protocol (CHARGEN)
+        /// </summary>
+        public const ushort Chargen = 19;
+
+        /// <summary>
         /// File Transfer Protocol (FTP) data transfer
         /// </summary>
         public const ushort FtpData = 20;
@@ -29,6 +69,26 @@
         /// Simple Mail Transfer Protocol (SMTP)
         /// </summary>
         public const ushort Smtp = 25;
+
+        /// <summary>
+        /// Time Protocol
+        /// </summary>
+        public const ushort TimeProtocol = 37;
+
+        /// <summary>
+        /// Host Name Server Protocol
+        /// </summary>
+        public const ushort HostNameServerProtocol = 42;
+
+        /// <summary>
+        /// WHOIS Protocol
+        /// </summary>
+        public const ushort Whois = 43;
+
+        /// <summary>
+        /// Terminal Access Controller Access-Control System (TACACS)
+        /// </summary>
+        public const ushort Tacacs = 49;
 
         /// <summary>
         /// Domain Name System (DNS)
@@ -61,9 +121,24 @@
         public const ushort Tftp = 69;
 
         /// <summary>
+        /// Gopher protocol
+        /// </summary>
+        public const ushort Gopher = 70;
+
+        /// <summary>
+        /// Finger protocol
+        /// </summary>
+        public const ushort Finger = 79;
+
+        /// <summary>
         /// Hypertext Transfer Protocol (HTTP)
         /// </summary>
         public const ushort Http = 80;
+
+        /// <summary>
+        /// Kerberos authentication system
+        /// </summary>
+        public const ushort Kerberos = 88;
 
         /// <summary>
         /// Post Office Protocol, version 2 (POP2)
@@ -114,11 +189,6 @@
         /// Simple Network Management Protocol Trap (SNMPTRAP)
         /// </summary>
         public const ushort SnmpTrap = 162;
-
-        /// <summary>
-        /// Internet Relay Chat (IRC)
-        /// </summary>
-        public const ushort Irc = 194;
 
         /// <summary>
         /// SNMP Unix Multiplexer (SMUX)

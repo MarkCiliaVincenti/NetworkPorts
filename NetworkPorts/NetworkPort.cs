@@ -76,6 +76,11 @@
         public const ushort TimeProtocol = 37;
 
         /// <summary>
+        /// Resource location protocol
+        /// </summary>
+        public const ushort Rlp = 39;
+
+        /// <summary>
         /// Host Name Server Protocol
         /// </summary>
         public const ushort HostNameServerProtocol = 42;

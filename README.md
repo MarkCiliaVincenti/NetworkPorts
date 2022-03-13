@@ -1,4 +1,4 @@
-# NetworkPorts
+# ![NetworkPorts](https://raw.githubusercontent.com/MarkCiliaVincenti/NetworkPorts/master/logo32.png) NetworkPorts
  [![GitHub branch checks state](https://img.shields.io/github/checks-status/MarkCiliaVincenti/NetworkPorts/master?label=build&logo=github&style=for-the-badge)](https://actions-badge.atrox.dev/MarkCiliaVincenti/NetworkPorts/goto?ref=master) [![Nuget](https://img.shields.io/nuget/v/NetworkPorts?label=NetworkPorts&logo=nuget&style=for-the-badge)](https://www.nuget.org/packages/NetworkPorts) [![Nuget](https://img.shields.io/nuget/dt/NetworkPorts?logo=nuget&style=for-the-badge)](https://www.nuget.org/packages/NetworkPorts)
 
 Constants for common network ports. Stop writing port numbers like 80 and 443 in your code and start using NetworkPort.Http and NetworkPort.Https instead.

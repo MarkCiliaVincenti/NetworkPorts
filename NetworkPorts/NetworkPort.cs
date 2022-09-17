@@ -231,6 +231,11 @@
         public const ushort Rdp = 3389;
 
         /// <summary>
+        /// SIP signaling
+        /// </summary>
+        public const ushort Sip = 5060;
+
+        /// <summary>
         /// MQ Telemetry Transport (MQTT) encrypted
         /// </summary>
         public const ushort MqttEncrypted = 8883;

@@ -362,3 +362,6 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /NetworkPorts/nuget.config
+/NetworkPorts/NuGet.config
+/NetworkPorts/NuGet.config
+/NetworkPorts/nuget.config

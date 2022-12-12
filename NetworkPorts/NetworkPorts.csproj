@@ -6,16 +6,16 @@
 		<RepositoryUrl>https://github.com/MarkCiliaVincenti/NetworkPorts.git</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/MarkCiliaVincenti/NetworkPorts</PackageProjectUrl>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
-		<Version>1.0.10</Version>
+		<Version>1.1.0</Version>
 		<PackageIcon>logo.png</PackageIcon>
-		<PackageReleaseNotes>Revert netstandard1.1 support</PackageReleaseNotes>
+		<PackageReleaseNotes>Signing assembly.</PackageReleaseNotes>
 		<Description>Constants for common network ports.</Description>
 		<Copyright>© 2022 Mark Cilia Vincenti</Copyright>
 		<PackageTags>ports,network,common,web,http,https,ftp,ssh</PackageTags>
 		<RepositoryType>git</RepositoryType>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<AssemblyVersion>1.0.10.0</AssemblyVersion>
-		<FileVersion>1.0.10.0</FileVersion>
+		<AssemblyVersion>1.1.0.0</AssemblyVersion>
+		<FileVersion>1.1.0.0</FileVersion>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<IsPackable>true</IsPackable>
 		<IsTrimmable>true</IsTrimmable>

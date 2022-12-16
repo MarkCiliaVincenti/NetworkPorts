@@ -211,6 +211,11 @@
         public const ushort Https = 443;
 
         /// <summary>
+        /// Certificate Management Protocol (CMP)
+        /// </summary>
+        public const ushort Cmp = 829;
+
+        /// <summary>
         /// FTP over TLS/SSL Protocol (FTPS) data transfer
         /// </summary>
         public const ushort FtpsData = 989;
@@ -219,6 +224,11 @@
         /// FTP over TLS/SSL Protocol (FTPS) control (command)
         /// </summary>
         public const ushort FtpsControl = 990;
+
+        /// <summary>
+        /// Internet Message Access Protocol over TLS/SSL (IMAPS)
+        /// </summary>
+        public const ushort Imaps = 993;
 
         /// <summary>
         /// MQ Telemetry Transport (MQTT) unencrypted

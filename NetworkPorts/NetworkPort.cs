@@ -241,6 +241,11 @@
         public const ushort Rdp = 3389;
 
         /// <summary>
+        /// Network UPS Tools (NUT)
+        /// </summary>
+        public const ushort Nut = 3493;
+
+        /// <summary>
         /// SIP signaling
         /// </summary>
         public const ushort Sip = 5060;

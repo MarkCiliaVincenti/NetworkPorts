@@ -7,16 +7,16 @@
 		<PackageProjectUrl>https://github.com/MarkCiliaVincenti/NetworkPorts</PackageProjectUrl>
 		<Copyright>MIT</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<Version>1.1.2</Version>
+		<Version>1.1.3</Version>
 		<PackageIcon>logo.png</PackageIcon>
-		<PackageReleaseNotes>Added CMP and IMAPS.</PackageReleaseNotes>
+		<PackageReleaseNotes>Added NUT.</PackageReleaseNotes>
 		<Description>Constants for common network ports.</Description>
-		<Copyright>© 2022 Mark Cilia Vincenti</Copyright>
+		<Copyright>© 2023 Mark Cilia Vincenti</Copyright>
 		<PackageTags>ports,network,common,web,http,https,ftp,ssh</PackageTags>
 		<RepositoryType>git</RepositoryType>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<AssemblyVersion>1.1.2.0</AssemblyVersion>
-		<FileVersion>1.1.2.0</FileVersion>
+		<AssemblyVersion>1.1.3.0</AssemblyVersion>
+		<FileVersion>1.1.3.0</FileVersion>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<IsPackable>true</IsPackable>
 		<IsTrimmable>true</IsTrimmable>

@@ -196,6 +196,11 @@
         public const ushort SnmpTrap = 162;
 
         /// <summary>
+        /// Border Gateway Protocol (BGP)
+        /// </summary>
+        public const ushort Bgp = 179;
+
+        /// <summary>
         /// SNMP Unix Multiplexer (SMUX)
         /// </summary>
         public const ushort Smux = 199;

@@ -1,7 +1,7 @@
-﻿namespace NetworkPorts;
+namespace NetworkPorts;
 
 /// <summary>
-/// Class for commonly-used network port constants
+/// Commonly-used network port constants
 /// </summary>
 public static class NetworkPort
 {
